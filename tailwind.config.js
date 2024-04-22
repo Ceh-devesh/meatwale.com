@@ -3,9 +3,18 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    
   ],
+  
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        spaceGrotesk: ['Space Grotesk', 'sans-serif'],
+      },
+      colors:{
+        customRed: '#BB1925'
+      },
+    },
   },
   plugins: [],
 }
