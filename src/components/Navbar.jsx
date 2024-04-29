@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <nav className='flex justify-space-evenly  h-31 font-spaceGrotesk bg-customRed  '>
-        <img className='w-[210px] h-[120px] mx-18 ' src="/src/assets/imgs/logos/logo.png" alt="" />
+    <nav id='nav' className='flex justify-center  h-31 font-spaceGrotesk bg-customRed  '>
+        <img className='w-[210px] h-[120px] mx-14 ' src="/src/assets/imgs/logos/logo.png" alt="" />
         <ul className='flex gap-5  font-semibold   text-[20px] my-14 ul-li'>
             
             <li ><a   href="">Home</a></li>
@@ -23,8 +23,8 @@ const Navbar = () => {
             <li><a href="">Contact us</a></li>
         </ul>
         <div className='flex my-2 '>
-        <img className='w-[80px] h-[80px] mt-4' src="/src/assets/imgs/logos/nav-logo2.png" alt="" /><img src="" alt="" />
-        <img className='w-[100px] h-[110px] /' src="/src/assets/imgs/logos/40538787-removebg-preview.png" alt="" /><img src="" alt="" />
+        {/* <img className='w-[80px] h-[80px] mt-4' src="/src/assets/imgs/logos/nav-logo2.png" alt="" /><img src="" alt="" /> */}
+        {/* <img className='w-[100px] h-[110px] /' src="/src/assets/imgs/logos/40538787-removebg-preview.png" alt="" /><img src="" alt="" /> */}
         </div>
         <div className='w-[150px] my-6 ' >
         <img className='my-2' src="/src/assets/imgs/iso.png" alt="" />

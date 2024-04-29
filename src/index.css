@@ -5,11 +5,29 @@
 body{
   margin: 0;
   padding: 0;
+  width: 100%;
+  background-color: #dcdcdc;
   box-sizing: border-box;
   
  
 }
+#storeCards{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+  &:hover{
+    box-shadow: rgba(254, 19, 19, 0.25) 0px 54px 55px, rgba(190, 95, 95, 0.12) 0px -12px 30px, rgba(255, 0, 0, 0.12) 0px 4px 6px, rgba(248, 124, 124, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  
+}
+
+#cardss{
+  transition: all .2s ease-in-out;
+  
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .ul-li a{
   
   padding: 53px 13px 30px 13px;
@@ -21,4 +39,17 @@ body{
     border-bottom-left-radius: 19px;
     background-color: #f0004c;
   }
+}
+
+#welcome{
+  z-index: 1000;
+}
+
+#nav{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  z-index: 1000;
+  
+  
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 10px;
 }
