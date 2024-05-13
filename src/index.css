@@ -9,11 +9,18 @@ body{
   background-color: #dcdcdc;
   box-sizing: border-box;
   font-family: 'Outfit';
-  
+  background-image: url('src/assets/imgs/background-full/5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
  
 }
 #form{
-  background-image: url('src/assets/imgs/background-full/special-menu-4.jpg');
+  /* background-image: url('src/assets/imgs/background-full/special-menu-4.jpg'); */
+  background-image: url('src/assets/imgs/form.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 
 } 
 #storeCards{
@@ -28,16 +35,30 @@ body{
 }
 #footer{
   background-image: url('src/assets/imgs/background-full/special-menu-2.jpg');
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: -10px;
 } 
 
 
-
+.apps{
+  transition: all .2s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+  }
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 #cardss{
   transition: all .2s ease-in-out;
 
   &:hover{
     transform: scale(1.1);
   }
+  
+}
+
+#about{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 10px;
 }
 .ul-li a{
   

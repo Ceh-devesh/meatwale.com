@@ -12,7 +12,7 @@ export default {
         spaceGrotesk: ['Space Grotesk', 'sans-serif'],
       },
       colors:{
-        customRed: '#F55050',
+        customRed: '#B60A08',
         overRed: '#D24545',
         newRed:'#dcdcdc'
       },

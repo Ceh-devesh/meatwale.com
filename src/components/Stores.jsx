@@ -12,9 +12,10 @@ const Stores = ({ imageUrl2 }) => {
   };
 
   return (
-    <div id='storeCards' className="relative  rounded-xl  h-[352px] ">
+    <div id='storeCards' className="relative   rounded-[20rem]  h-[351px] ">
+      
       <div 
-        className="w-[380px] h-[352px] gap-2 border bg-cover bg-center rounded-lg bg-gray-300 cursor-pointer"
+        className="w-[390px] h-[352px]  gap-2 border bg-cover bg-center rounded-[30rem] bg-gray-300 cursor-pointer"
         style={{ backgroundImage: `url(${imageUrl2})` }}
         onClick={openModal}
       />

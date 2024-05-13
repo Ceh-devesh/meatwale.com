@@ -8,15 +8,9 @@ const Card = ({imageUrl, title}) => {
   return (
     <>
     
-
-
-
-
-
+     <div   className="  justify-center inline-block">
       
-     <div  id='cardss' className="  justify-center inline-block">
-      
-      <div className="relative grid h-66 w-full max-w-75 flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+      <div id='cardss' className="relative grid h-66 w-full max-w-75 flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div
           className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-cover bg-clip-border bg-center text-gray-400 shadow-none"
           style={{ backgroundImage: `url(${imageUrl})` }}
@@ -47,3 +41,13 @@ const Card = ({imageUrl, title}) => {
 }
 
 export default Card
+
+
+
+
+
+
+
+
+
+

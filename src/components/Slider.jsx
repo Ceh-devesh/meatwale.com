@@ -12,8 +12,8 @@ const Slider = () => {
       showThumbs={false}
       interval={2000}
     >
-                <div >
-                    <img src="src/assets/imgs/slider/sli-1.png" />
+                <div className='' >
+                    <img src="src/assets/imgs/slider/Welcome to.png" />
                     
                 </div>
                 <div>

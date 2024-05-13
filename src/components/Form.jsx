@@ -6,9 +6,9 @@ const FormComponent = () => {
    
 
    
-   <div id='form' className=' w-[110rem] float-right   relative bottom-[0rem]    '>
+   <div id='form' className=' '>
 
-<div className="min-h-screen   flex flex-col justify-end sm:py-10">
+<div className="min-h-screen relative right-[30rem] bottom-10   flex flex-col justify-end sm:py-10">
 	<div className="relative  sm:max-w-xl sm:mx-auto">
 		<div
 			className="absolute inset-0 bg-gradient-to-r from-red-400 bg-customRed shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
