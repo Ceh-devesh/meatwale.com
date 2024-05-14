@@ -43,7 +43,7 @@ const Navbar = () => {
       <li className='hover:text-red-600'><Link to='/about'>About Us</Link></li>
       <li className='hover:text-red-600'><Link to='/product'>Products</Link></li>
     </ul>
-    <motion.img initial={{opacity:0,scale:0 }} animate={{opacity:1, scale: 1,}} transition={{delay:0.2, duration:1, }}  src="src/assets/imgs/logos/logo.png" alt="logo" />
+    <a href=""><motion.img initial={{opacity:0,scale:0 }} animate={{opacity:1, scale: 1,}} transition={{delay:0.2, duration:1, }}  src="src/assets/imgs/logos/logo.png" alt="logo" /></a>
     <ul className='flex gap-10'>
       <li className='hover:text-red-300'><Link to='/contact'>Contact Us</Link></li>
       <li className='hover:text-red-600'><Link to='/career'>Career</Link></li>

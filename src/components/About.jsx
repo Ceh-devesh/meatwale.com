@@ -51,7 +51,7 @@ const About = () => {
   return (
    <>
 
-    <div className="relative " >
+    <div className="relative mb-[24rem] " >
  
   <img id='about'  className="absolute   inset-0 w-full  object-cover z-0" src="src/assets/imgs/background-full/5.png" alt="" />
     {/* <video  className='className="absolute inset-0 w-full object-cover z-0' src="src/assets/vid1.mp4"></video> */}

@@ -25,12 +25,12 @@ const Home = () => {
     <>
 
        {/* about section */}
-    <About/>
+    {/* <About/> */}
     
       <div className='relative '>
       
           {/* 4 cards */}
-          <div className='my-[22rem] h-[13rem] bg-smokehite p-1'    id='cards-3'>
+          {/* <div className='my-[22rem] h-[13rem] bg-smokehite p-1'    id='cards-3'>
           <h2 className='text-5xl font-semibold flex justify-center my-5  text-white'>Our Products</h2>
         <div   className='flex  gap-10 items-center mx-4 justify-center  my-10 '>
         
@@ -46,7 +46,7 @@ const Home = () => {
         <Card title={'Seekh Kebabs'} imageUrl='src/assets/imgs/3cards/15619774802971.jpg'/> 
         <Card title={'Chicken Salami'} imageUrl='src/assets/imgs/3cards/chicken-salami-plain.jpg'/> 
         </div>
-        </div>
+        </div> */}
 
      
 
@@ -55,13 +55,13 @@ const Home = () => {
 
 
        
-        <AppSection/>
+        {/* <AppSection/> */}
       
 
 
           {/* stores cards */}
-          <h2 className='text-5xl flex justify-center my-8 font-bold  text-white '>Visit Our Stores</h2>
-        <div id='storecards'    className=' bg-red-500  rounded-t-[14rem] p-10 flex gap-8 flex-wrap justify-center  '>
+          {/* <h2 className='text-5xl flex justify-center my-8 font-bold  text-red-600 '>Visit Our Stores</h2> */}
+        {/* <div id='storecards'    className=' bg-red-500  rounded-t-[14rem] p-10 flex gap-4 flex-wrap justify-center  '>
             
           <Stores imageUrl2="src/assets/imgs/gallery/26-11-2021-1.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/26-11-2021-2.jpg"/>
@@ -87,7 +87,7 @@ const Home = () => {
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-19.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-20.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-21.jpg"/>
-          <Stores imageUrl2="src/assets/imgs/gallery/gallery-22.jpg"/>
+          <Stores imageUrl2="src/assets/imgs/gallery/1212.png"/>
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-22.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-22.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/gallery-22.jpg"/>
@@ -102,14 +102,14 @@ const Home = () => {
           <Stores imageUrl2="src/assets/imgs/gallery/26-11-2021-1.jpg"/>
           <Stores imageUrl2="src/assets/imgs/gallery/sevenbunglows.png"/>
           <Stores imageUrl2="src/assets/imgs/gallery/shalimar3.png"/>
-        </div>
+        </div> */}
 
 
 
 
-        <Slider/>
+        {/* <Slider/> */}
       {/* form section */}
-        <Form/>
+        {/* <Form/> */}
 
         
       
@@ -119,7 +119,7 @@ const Home = () => {
       {/* footer */}
       
 
-        <Footer/>
+        {/* <Footer/> */}
       
 
       
