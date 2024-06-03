@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     
   return (
@@ -39,14 +39,14 @@ const Navbar = () => {
   <img  className=' cursor-default absolute inset-0 w-full h-full object-cover' src="src/assets/imgs/navbar.png" alt="" />
   <div className='flex justify-evenly items-center relative z-10'>
     <ul    className='flex gap-10   '>
-      <li className='hover:text-red-600'><Link to='/'>Home</Link></li>
-      <li className='hover:text-red-600'><Link to='/about'>About Us</Link></li>
-      <li className='hover:text-red-600'><Link to='/product'>Products</Link></li>
+      <li className='hover:text-red-600'><NavLink className={(e)=>{return e.isActive?"red":""}} to='/'>Home</NavLink></li>
+      <li className='hover:text-red-600'><NavLink className={(e)=>{return e.isActive?"red":""}} to='/about'>About Us</NavLink></li>
+      <li className='hover:text-red-600'><NavLink className={(e)=>{return e.isActive?"red":""}} to='/product'>Products</NavLink></li>
     </ul>
     <a href=""><motion.img initial={{opacity:0,scale:0 }} animate={{opacity:1, scale: 1,}} transition={{delay:0.2, duration:1, }}  src="src/assets/imgs/logos/logo.png" alt="logo" /></a>
     <ul className='flex gap-10'>
-      <li className='hover:text-red-300'><Link to='/contact'>Contact Us</Link></li>
-      <li className='hover:text-red-600'><Link to='/career'>Career</Link></li>
+      <li className='hover:text-red-300'><NavLink  className={(e)=>{return e.isActive?"red":""}} to='/contact'>Contact Us</NavLink></li>
+      <li className='hover:text-red-600'><NavLink className={(e)=>{return e.isActive?"red":""}} to='/career'>Career</NavLink></li>
       <li><button className='border ring-2 outline-none ring-red-700 hover:bg-red-700 -m-2 p-3 rounded-full text-lg bg-gray-800'>Join Our Franchise!</button></li>
     </ul>
   </div>

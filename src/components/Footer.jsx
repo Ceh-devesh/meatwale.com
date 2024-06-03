@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <>
     
-      {/* <img className='h-[40rem] relative -z-10  w-full' src="src/assets/Untitled design.jpg" alt="" /> */}
     <footer id='footer' className=" relative    w-full  flex flex-col justify-center items-center text-gray-200 px-5">
+      <img className='absolute opacity-90  w-full h-full object-cover z-[-1]' src="src/assets/Untitled design.jpg" alt="" />
   <div className="flex   sm:flex-row items-center justify-between w-full ">
     <img  src="src/assets/imgs/logos/logo.png" alt="Logo" className="w-350px mb-4 sm:mb-0" />
     <p className='w-[650px] ml-16 text-xl h-[70px] '>Meatwale.com is the pioneer in the unique business model of delivering raw meat items at your door step. At present we have eighty five plus stores across India in twelve different states.</p>

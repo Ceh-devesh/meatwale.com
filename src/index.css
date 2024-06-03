@@ -15,14 +15,31 @@ body{
   /* background-position: center; */
  
 }
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 #form{
   /* background-image: url('src/assets/imgs/background-full/special-menu-4.jpg'); */
-  background-image: url('src/assets/imgs/form.jpg');
-  background-repeat: repeat;
+  /* background-image: url('src/assets/imgs/form.jpg'); */
+  /* background-repeat: repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 
 } 
+.red{
+  color: rgb(215, 237, 24)
+}
 .storeCards{
  
   transition: all .4s ease-in-out;
@@ -35,7 +52,7 @@ body{
   
 }
 #footer{
-  background-image: url('src/assets/imgs/background-full/special-menu-2.jpg');
+  /* background-image: url('src/assets/imgs/background-full/special-menu-2.jpg'); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   opacity: -10px;
 } 

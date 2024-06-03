@@ -6,12 +6,13 @@ const FormComponent = () => {
    
 
    
-   <div id='form' className=' '>
-
+   <div id='form' className='  '>
+	<video className="absolute opacity-90  w-full h-full object-cover z-[-1] rounded-t-[30px]" autoPlay loop muted src="src/assets/vid1.mp4"></video>
 <div className="min-h-screen relative right-[30rem] bottom-10   flex flex-col justify-end sm:py-10">
 	<div className="relative  sm:max-w-xl sm:mx-auto">
+		<h2></h2>
 		<div
-			className="absolute inset-0 bg-gradient-to-r from-red-400 bg-customRed shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+			className="absolute inset-1 bg-gradient-to-r from-red-400 bg-customRed shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
 		</div>
 		<div className="relative px-4 py-1 bg-white shadow-lg sm:rounded-3xl sm:p-20">
 			<div className="max-w-md mx-auto">

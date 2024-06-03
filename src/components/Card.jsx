@@ -56,7 +56,7 @@ const Card = () => {
 {/* card 1 */}
 <div className='flex gap-10 m-12  justify-center'>
 <div
-  class="relative transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+  class="relative transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-3xl bg-white bg-clip-border text-center text-gray-700">
   <div
     class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://images.unsplash.com/photo-1587593810167-a84920ea0781?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
     <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
@@ -76,7 +76,7 @@ const Card = () => {
 
 {/* card 2 */}
 <div
-  class="relative transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+  class="relative transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-3xl bg-white bg-clip-border text-center text-gray-700">
   <div
     class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('src/assets/imgs/3cards/mix-mutton.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
     <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
@@ -93,7 +93,7 @@ const Card = () => {
 </div>  
 {/* card 3 */}
 <div
-  class="relative  transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+  class="relative  transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-3xl bg-white bg-clip-border text-center text-gray-700">
   <div
     class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('src/assets/imgs/3cards/15619774802971.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
     <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
@@ -112,7 +112,7 @@ const Card = () => {
 {/* card 4 */}
 
 <div
-  class="relative  transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+  class="relative  transition-all duration-[.3s] ease-in-out hover:transform hover:scale-110 grid h-[20rem] w-full max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-3xl bg-white bg-clip-border text-center text-gray-700">
   <div
     class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('src/assets/imgs/3cards/chicken-salami-plain.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
     <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
